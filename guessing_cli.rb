@@ -14,10 +14,7 @@ def run_guessing_game
     rand_num = rand(7)
     puts "Guess a number between 1 and 6."
     guess = gets.chomp
-=======
     puts "Guess a number between 1 and 6,"
->>>>>>> 5fe04b6d82341870faac6bd0bbaefb23f28a0fa8
   end
-  
   puts "Goodbye!"
 end
