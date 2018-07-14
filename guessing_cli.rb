@@ -12,8 +12,12 @@ def run_guessing_game
       puts "You guessed the correct number!"
     end 
     rand_num = rand(7)
+<<<<<<< HEAD
     puts "Guess a number between 1 and 6."
     guess = gets.chomp
+=======
+    puts "Guess a number between 1 and 6,"
+>>>>>>> 5fe04b6d82341870faac6bd0bbaefb23f28a0fa8
   end
   
   puts "Goodbye!"
